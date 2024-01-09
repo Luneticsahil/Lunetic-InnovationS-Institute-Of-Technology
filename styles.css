@@ -1,0 +1,91 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply some basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+body {
+   /* Replace with your background image file */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Do not repeat the image */
+     /* Keep the background fixed while scrolling */
+}
+
+header {
+    background-color: tan;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    max-width: 100px;
+}
+
+nav {
+    background-color: teal;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff8c00; /* Change to your desired hover color */
+    transition: color 0.3s ease;
+}
+
+.notice {
+    padding: 20px;
+    text-align: center;
+}
+.notice {
+            position: right-side fixed;
+            top: 0;
+            right: 0;
+            width: 300px; /* Adjust the width as needed */
+            height: 50vh; /* Set the height to 50% of the viewport's height */
+            background-color: #f0f0f0;
+            padding: 20px;
+            overflow-y: scroll;
+}
+
+div.polaroid {
+  
+display: flex;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#ffcccc
